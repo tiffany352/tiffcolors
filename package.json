@@ -1,0 +1,21 @@
+{
+  "name": "tiffcolors",
+  "displayName": "TiffColors",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tiff Colors",
+        "uiTheme": "vs-dark",
+        "path": "./themes/color-theme.json"
+      }
+    ]
+  }
+}
