@@ -16,6 +16,37 @@
   },
   "tokenColors": [
     {
+      "name": "Unit types",
+      "scope": [
+        "constant.language.boolean.true",
+        "constant.language.boolean.false",
+        "constant.language.false.cpp",
+        "constant.language.true.cpp",
+        "constant.language.nullptr.cpp",
+        "constant.language.java",
+        "constant.language.nil",
+        "constant.language.null",
+        "constant.language.undefined"
+      ],
+      "settings": {
+        "foreground": "#6980F7"
+      }
+    },
+    {
+      "name": "Lua const",
+      "scope": "constant.language.lua",
+      "settings": {
+        "foreground": "#fede5d"
+      }
+    },
+    {
+      "name": "Lua self",
+      "scope": "variable.language.self.lua",
+      "settings": {
+        "foreground": "#fede5d"
+      }
+    },
+    {
       "name": "HTML tags",
       "scope": [
         "entity.name.tag.html",
@@ -443,7 +474,7 @@
     },
     {
       "name": "keyword.operator.sigil.rust",
-      "scope": "keyword.operator.sigil.rust",
+      "scope": ["keyword.operator.sigil.rust"],
       "settings": {
         "foreground": "#fede5d"
       }
@@ -846,7 +877,6 @@
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "fontStyle": "normal",
         "foreground": "#61afef"
       }
     },
@@ -854,7 +884,6 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "fontStyle": "normal",
         "foreground": "#d58047"
       }
     },
@@ -904,7 +933,8 @@
       "name": "markup Italic",
       "scope": "markup.italic, punctuation.definition.italic,todo.emphasis",
       "settings": {
-        "foreground": "#fede5d"
+        "foreground": "#fede5d",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1983,13 +2013,13 @@
     "notificationCenterHeader.foreground": "#e4e4e4",
     "notificationCenterHeader.background": "#1b0026",
     "notifications.border": "#ffffff1c",
-    "gitDecoration.addedResourceForeground": "#81b88b",
+    "gitDecoration.addedResourceForeground": "#6980F7",
     "gitDecoration.conflictingResourceForeground": "#6c6cc4",
-    "gitDecoration.deletedResourceForeground": "#c74e39",
+    "gitDecoration.deletedResourceForeground": "#CC7033",
     "gitDecoration.ignoredResourceForeground": "#8c8c8c",
-    "gitDecoration.modifiedResourceForeground": "#e2c08d",
-    "gitDecoration.stageDeletedResourceForeground": "#c74e39",
-    "gitDecoration.stageModifiedResourceForeground": "#e2c08d",
+    "gitDecoration.modifiedResourceForeground": "#6980F7",
+    "gitDecoration.stageDeletedResourceForeground": "#CC7033",
+    "gitDecoration.stageModifiedResourceForeground": "#6980F7",
     "gitDecoration.submoduleResourceForeground": "#8db9e2",
     "gitDecoration.untrackedResourceForeground": "#73c991",
     "editorMarkerNavigation.background": "#280036",
