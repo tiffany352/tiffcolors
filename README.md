@@ -1,13 +1,11 @@
-# README
-## This is the README for your extension "tiffcolors"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Tiffcolors
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+This is a VS code theme inspired by SynthWave 84, made for people with
+deuteranopia (red-green colorblindness).
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+# Palette
 
-**Enjoy!**
+| name       | color   |
+| ---------- | ------- |
+| background | #16001e |
+| keyword    | #fede5d |
