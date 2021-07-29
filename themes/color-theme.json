@@ -40,8 +40,8 @@
       }
     },
     {
-      "name": "Lua self",
-      "scope": "variable.language.self.lua",
+      "name": "self/this",
+      "scope": ["variable.language.self.lua", "variable.language.this.cpp"],
       "settings": {
         "foreground": "#fede5d"
       }
@@ -623,14 +623,14 @@
       "name": "Namespaces",
       "scope": "entity.name.namespace",
       "settings": {
-        "foreground": "#afddeb"
+        "foreground": "#D948BA"
       }
     },
     {
       "name": "Variables",
       "scope": "variable",
       "settings": {
-        "foreground": "#afddeb"
+        "foreground": "#c4c4c4"
       }
     },
     {
