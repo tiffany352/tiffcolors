@@ -5,7 +5,7 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "enumMember": {
-      "foreground": "#fede5d"
+      "foreground": "#afddeb"
     },
     "variable.constant": {
       "foreground": "#d58047"
@@ -18,6 +18,7 @@
     {
       "name": "Unit types",
       "scope": [
+        "constant.language.boolean",
         "constant.language.boolean.true",
         "constant.language.boolean.false",
         "constant.language.false.cpp",
@@ -30,6 +31,17 @@
       ],
       "settings": {
         "foreground": "#6980F7"
+      }
+    },
+    {
+      "name": "Rust lifetimes",
+      "scope": [
+        "entity.name.type.lifetime.rust",
+        "storage.modifier.lifetime.rust",
+        "punctuation.definition.lifetime.rust"
+      ],
+      "settings": {
+        "foreground": "#69ce60"
       }
     },
     {
@@ -118,13 +130,6 @@
       "scope": "variable.parameter.function.language.special.self.python",
       "settings": {
         "foreground": "#afddeb"
-      }
-    },
-    {
-      "name": "storage.modifier.lifetime.rust",
-      "scope": "storage.modifier.lifetime.rust",
-      "settings": {
-        "foreground": "#ffffff"
       }
     },
     {
@@ -365,7 +370,7 @@
       "name": "support.constant.property-value.scss",
       "scope": "support.constant.property-value.scss,support.constant.property-value.css",
       "settings": {
-        "foreground": "#d58047"
+        "foreground": "#fede5d"
       }
     },
     {
@@ -623,12 +628,19 @@
       "name": "Namespaces",
       "scope": "entity.name.namespace",
       "settings": {
-        "foreground": "#D948BA"
+        "foreground": "#c4c4c4be"
       }
     },
     {
       "name": "Variables",
       "scope": "variable",
+      "settings": {
+        "foreground": "#c4c4c4"
+      }
+    },
+    {
+      "name": "CSS property names",
+      "scope": "support.type.property-name.css",
       "settings": {
         "foreground": "#c4c4c4"
       }
@@ -730,7 +742,7 @@
       "name": "Type Name",
       "scope": "entity.name.type",
       "settings": {
-        "foreground": "#afddeb"
+        "foreground": "#61afef"
       }
     },
     {
@@ -884,7 +896,7 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "foreground": "#d58047"
+        "foreground": "#69ce60"
       }
     },
     {
@@ -912,7 +924,7 @@
       "name": "Units",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#afddeb"
+        "foreground": "#d58047"
       }
     },
     {
@@ -1344,7 +1356,7 @@
       "name": "ts primitive/builtin types",
       "scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
       "settings": {
-        "foreground": "#afddeb"
+        "foreground": "#fede5d"
       }
     },
     {
@@ -1429,6 +1441,13 @@
       "scope": ["support.type.primitive"],
       "settings": {
         "foreground": "#afddeb"
+      }
+    },
+    {
+      "name": "rust builtin type",
+      "scope": "support.type.primitive.rust",
+      "settings": {
+        "foreground": "#fede5d"
       }
     },
     {
@@ -1539,7 +1558,7 @@
         "entity.other.attribute-name.pseudo-class"
       ],
       "settings": {
-        "foreground": "#fede5d"
+        "foreground": "#6980f7"
       }
     },
     {
