@@ -1,26 +1,30 @@
 # Tiffcolors
 
 This is a VS code theme inspired by SynthWave 84, made for people with
-deuteranopia (red-green colorblindness).
+deuteranopia (red-green colorblindness). I made it mostly for myself,
+but if anybody else finds it useful then that's great.
 
-# Palette
+## Features
 
-## Syntax Highlighting
+- Colors picked specifically for being easy to distinguish for
+  colorblind people.
+- Supports semantic highlighting for various languages, such as Rust,
+  C++, TypeScript, etc.
 
-| name   | color   | usage              |
-| ------ | ------- | ------------------ |
-| yellow | #fede5d | keywords, builtins |
-| red    | #d58047 | numbers            |
-| green  | #69ce60 | strings            |
-| blue 1 | #61afef | types              |
-| blue 2 | #6980f7 | true, false, null  |
-| cyan   | #afddeb | variables          |
-| grey   | #c4c4c4 | variable names     |
+# Screenshots
 
-## Editor
+## Rust
 
-| name        | color   | usage      |
-| ----------- | ------- | ---------- |
-| dark purple | #16001e | background |
-| yellow      | #fede5d | highlights |
-| blue        | #6980f7 | highlights |
+![Screenshot](./images/Screenshot%20-%20Rust%20-%20rink-rs.png)
+
+## C++
+
+![Screenshot](./images/Screenshot%20-%20C%2B%2B%20-%20harfbuzz.png)
+
+## TypeScript
+
+![Screenshot](./images/Screenshot%20-%20TypeScript%20-%20unicode-visualizer-web.png)
+
+## Java
+
+![screenshot](./images/Screenshot%20-%20Java%20-%20InvisibleItemFrames.png)
