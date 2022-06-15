@@ -1,12 +1,8 @@
 # Change Log
 
-All notable changes to the "tiffcolors" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## v0.1.2
 
-- Fixed dropdown menus displaying incorrectly (#1 by @RivenSkaye)
+- Fixed dropdown menus displaying incorrectly. ([#1](https://github.com/tiffany352/tiffcolors/pull/1) by [@RivenSkaye](https://github.com/RivenSkaye))
 
 ## v0.1
 
