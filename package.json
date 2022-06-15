@@ -14,7 +14,7 @@
   "icon": "images/logo-128.png",
   "publisher": "tiffnix",
   "license": "MPL-2.0",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "vscode": "^1.56.0"
   },
