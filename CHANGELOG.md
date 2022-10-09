@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.1.5
+
+- Fixed colors of toggle buttons in search bars.
+
 ## v0.1.4
 
 - Fixed the new merge editor UI having invisible checkboxes.
