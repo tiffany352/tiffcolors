@@ -485,6 +485,13 @@
       }
     },
     {
+      "name": "keyword.other.rust",
+      "scope": ["keyword.other.rust"],
+      "settings": {
+        "foreground": "#fede5d"
+      }
+    },
+    {
       "name": "operator",
       "scope": "keyword.operator.delete",
       "settings": {
